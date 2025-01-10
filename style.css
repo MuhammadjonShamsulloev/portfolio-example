@@ -1,0 +1,28 @@
+body {
+  background: #2e4057;
+  margin: 0;
+}
+
+nav {
+  color: #fff;
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+}
+
+nav ol {
+  display: flex;
+  color: #fff;
+  width: 400px;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+}
