@@ -1,0 +1,149 @@
+body {
+  background: #2e4057;
+  margin: 0;
+}
+
+nav {
+  color: #9ca3af;
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  background-color: #000;
+  color: #9ca3af;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+}
+
+nav ol {
+  display: flex;
+  color: #9ca3af;
+  width: 400px;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #020617;
+}
+
+.container-info {
+  width: 60%;
+  height: 400px;
+}
+
+.info-intro {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-detals {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-intro-span-me {
+  font-size: 44px;
+  color: #eab308;
+  font-weight: bold;
+}
+.info-intro-span-about {
+  max-width: 50%;
+  color: #6b7280;
+}
+
+.detals-block {
+  width: 40%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.detals-block-intro {
+  color: #fff;
+  font-size: 20px;
+}
+
+.block-intor {
+  color: #6b7280;
+  max-width: 70%;
+}
+
+.details-img-div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+
+.details-img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detals-block-child {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details-child-first {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-child-second {
+  width: 100%;
+  height: 48%;
+  background-color: rgb(53, 13, 184);
+}
+
+.details-child-first div {
+  width: 48%;
+  background-color: #2e4057;
+  border-radius: 8px;
+}
+
+.details-img-div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+
+.details-child-first img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
